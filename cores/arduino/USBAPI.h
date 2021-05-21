@@ -82,7 +82,7 @@ private:
 
 extern USBDeviceClass USBDevice;
 
-#define CDC_RX_BUFFER_SIZE 256
+#define CDC_RX_BUFFER_SIZE 2048
 #define CDC_TX_BUFFER_SIZE 256
 #define CDC_TX_PACKET_SIZE 128
 
